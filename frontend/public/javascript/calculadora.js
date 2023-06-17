@@ -23,3 +23,16 @@ let funcionPredeterminada = () =>{
 
 }
 funcionPredeterminada();
+
+
+var input = document.getElementsByClassName('form-control');
+
+// Agrega un event listener para el evento de clic
+input.
+input
+addEventListener('click', function() {
+  
+ 
+// Cambia el color del borde al hacer clic
+  input.style.borderColor = 'red';
+});

@@ -23,15 +23,15 @@
             rel="stylesheet" />
 
     </head>
-    <body id = "preuba">
+    <body id = "estiloBkg">
         <div class="container-fluid">
             <!-- Barra de navegación -->
             <div class="row d-flex justify-content-center">
                 <div class="col-md-6 col-12">
                     <nav id = "barraTitle" class="navbar navbar-light bg-light">
                         <div class="container-fluid" style="justify-content: center; margin-bottom: 0%;">
-                            <a class="navbar-brand" href="#" style="font-size: 30px;">Calculadora de Presupuesto </a>
-                         
+                            <a id = "titleGeneral"class="navbar-brand" href="#" ><strong>Calculadora de Presupuesto </a>
+                            </strong>
                         </div>
                     </nav>
                     <div class="collapse" id="navbarToggleExternalContent2">
@@ -55,7 +55,8 @@
                                 <div class="form-outline mb-4">
                                     <input type="number" id="valorPorHora"
                                         step="0.25" required="required"
-                                        class="form-control" />
+                                        class="color-input form-control" 
+                                       />
                                     <label class="form-label" for="valorPorHora">Valor
                                         por hora ($)</label>
                                 </div>
@@ -132,7 +133,7 @@
                         <!-- Submit button -->
                         <div class="row mb-4 d-flex justify-content-center">
                             <div class="col-md-6">
-                                <button type="submit"
+                                <button id = "calcular"type="submit"
                                     class="btn btn-primary btn-block">Calcular</button>
                             </div>
                         </div>
@@ -160,7 +161,6 @@
 
         <!-- javascript:src public/javascript/calculadora.js -->
         <script type="" src="public/javascript/calculadora.js"></script>
-
 
     </body>
 </html>
